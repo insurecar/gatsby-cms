@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\byrit\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gatsby-source-filesystem
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\byrit\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\byrit\AppData\Local\Microsoft\WindowsApps;C:\Users\byrit\AppData\Roaming\npm;C:\Users\byrit\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\PROJECT\gatsby-cms\my-gatsby-site\node_modules\@parcel\fs-search\fs-search.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "my-gatsby-site",
+    "version": "1.0.0",
+    "private": true,
+    "description": "my-gatsby-site",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "gatsby": "^4.11.1",
+      "gatsby-plugin-netlify-cms": "^6.11.0",
+      "gatsby-plugin-sass": "^5.11.1",
+      "netlify-cms-app": "^2.15.70",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "sass": "^1.49.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
